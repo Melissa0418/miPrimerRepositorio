@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi página</title>
+
+    <style>
+        p{
+            /*Aplicar colores al texto*/
+            color: blue;
+        
+        }
+    </style>
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -26,18 +36,31 @@
         <img src="img/botonservicio.png" alt="no carga" title="ir a servicios"width="30px">
     </a>
 
-    <h1>Etiqueta de parrafo</h1>
-    <p> ipsum dolor, sit amet consectetur adipisicing elit. Inventore veniam tempore maiores tenetur optio! Molestiae eaque accusantium dicta beatae dolorum, quo expedita fugit nihil enim aliquid impedit blanditiis dolor quod.
+    <h1 class="pDiferente">Etiqueta de parrafo</h1>
+
+    <div class="divRGBA">
+        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores, architecto totam explicabo laborum cumque animi nostrum tenetur deserunt qui earum reprehenderit fugiat ut temporibus eos accusantium nulla voluptatem assumenda!</p>
+
+    </div>
+
+    
+    <div class="divHSL">
+        <p style="color: white;">Otro ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores, architecto totam explicabo laborum cumque animi nostrum tenetur deserunt qui earum reprehenderit fugiat ut temporibus eos accusantium nulla voluptatem assumenda!</p>
+
+    </div>
+
+        
+    <p class="pMelissa"> Clase Melissa ipsum dolor, sit amet consectetur adipisicing elit. Inventore veniam tempore maiores tenetur optio! Molestiae eaque accusantium dicta beatae dolorum, quo expedita fugit nihil enim aliquid impedit blanditiis dolor quod.
     </p>
     <br>
 
-    <b>Negrita con semantica</b>
+    <b class="negritaSemantica">Negrita con semantica</b>
     <br>
 
     <strong>Negrita sin semantica</strong>
     <br>
 
-    <i> Texto en cursiva </i>
+    <i class="colorRGB"> Texto en cursiva </i>
     <br>
 
     <em> Cursiva con peso semantico </em>
@@ -50,7 +73,7 @@
     <br>
 
     <!-- Formula matematica 2 -->
-    <p>F <sub>(x)</sub> = 2X <sup>4</sup> + 3X <sup>3</sup> - 2X <sup>2</sup> + 5X</sup> - 3</p>
+    <p class="pDiferente">F <sub>(x)</sub> = 2X <sup>4</sup> + 3X <sup>3</sup> - 2X <sup>2</sup> + 5X</sup> - 3</p>
     <br>
 
     <mark>Texto marcado</mark>
@@ -219,11 +242,12 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/mhHqonzsuoA?si=5Fyum2wOakvZ8OIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <br>
 
-
         </form>
 
-
     </div>
+
+    <!--CSS-->
+
 
 
     

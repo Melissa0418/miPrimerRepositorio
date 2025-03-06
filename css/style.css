@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+.pDiferente{
+    color: red;
+}
+
+.negritaSemantica{
+    color: blueviolet;
+}
+
+.pMelissa{
+    color: #16f304;
+}
+
+.colorRGB{
+    color: rgb(243, 106, 4);
+}
+
+.divRGBA{
+    width: 50%;
+    background-color: rgba(11, 60, 8, 0.5);
+    
+}
+
+.divHSL{
+    width: 50%;
+    background-color: hsl(322, 98%, 49%);
+    padding: 20px;
+    margin-top: 50px;
+    margin: auto;
+}
